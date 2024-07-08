@@ -1,4 +1,5 @@
-import { DoorClosed, Handshake, Headset, Sofa } from "lucide-react";
+import { DoorClosed, Handshake, Headset, QuoteIcon, Search, Sofa } from "lucide-react";
+
 
 
 const K = {
@@ -52,7 +53,41 @@ SERVICES:[
         Icon: <Headset/>,
         bgColor:"#F4E6D8",
         iconBg: "#D29A61",
-    }
-]
+    },
+],
+
+COLLECTION:[
+     {
+        Icon: <Search/>,
+        description: "Business Finance Consulting",
+        
+     },
+],
+
+TESTIMONIAL:[
+    {
+        Icon: <QuoteIcon/>,
+        iconBg: "#CF7500",
+        bgColor: "#FFFFFF",
+        description: "Far far away, behind the word  mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    },
+    {
+        Icon: <QuoteIcon/>,
+        iconBg: "#FFFFFF",
+        bgColor: "#CF7500",
+        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    },
+    {
+        Icon: <QuoteIcon/>,
+        iconBg: "#CF7500",
+        bgColor: "#FFFFFF",
+        description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    },
+],
+
+
 };
 export default K;

@@ -1,5 +1,6 @@
 import { heroBg } from "../../../assets"
 
+
 const Hero = () => {
   return (
     <div className="flex h-screen">
@@ -14,7 +15,7 @@ const Hero = () => {
            </div>
       </div>
       <div className="w-1/2">
-        <img src={heroBg} alt="Hero background"className="object-cover w-full h-full" />
+        <img src={heroBg}  alt="Hero background"className="object-cover w-full h-full" />
       </div>
     </div>
   )

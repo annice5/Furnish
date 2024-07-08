@@ -3,7 +3,7 @@ import K from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-40 py-10 fixed w-full left-0 top-0 ">
+    <div className="flex justify-between px-40 py-10 fixed w-full left-0 top-0 z-50 ">
       <span className="font-extrabold text-2xl ">Furnish</span>
       <div className="flex gap-x-16">
         {
